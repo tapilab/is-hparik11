@@ -1,5 +1,1 @@
-Here are three (fictitional!) project ideas:
-
-1. **Lotto Predictor**: I will design an algorithm to predict the winning lotto numbers based on the most popular numbers on Twitter. To do so, I will use the Twitter Streaming API to collect a sample of messages for each week, then count the frequency of each number. I will then guess the week's winning lotto numbers by combining the most popular numbers. I will evaluate over 10 weeks and report accuracy and total earnings.
-2. ...
-3. ...
+**Identifying Gender From Facial Features**: The objective of this project is to identify the gender of a person by looking at his/her photograph. This is a case of supervised learning where the algorithm is first trained on a set of female and male faces, and then used to classify new data. I have not taken genders other than Male and Female into account. A  preliminary algorithm is run to make sure that an image is that of a human before classification begins. I am going to implement [Deep Learning Algorithm](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/faces.html) for this project and will use [OpenCV](http://opencv.org/) to detect the face from an Image. 
