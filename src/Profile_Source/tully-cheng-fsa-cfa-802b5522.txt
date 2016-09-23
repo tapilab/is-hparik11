@@ -1,46 +1,2955 @@
-<html><head>
-<script type="text/javascript">
-window.onload = function() {
-  // Parse the tracking code from cookies.
-  var trk = "sentinel_org_block";
-  var cookies = document.cookie.split("; ");
-  for (var i = 0; i < cookies.length; ++i) {
-    if ((cookies[i].indexOf("trkCode=") == 0) && (cookies[i].length > 8)) {
-      trk = cookies[i].substring(8);
-    }
-  }
+<!DOCTYPE html><!--[if lt IE 7]> <html lang="en" class="ie ie6 lte9 lte8 lte7 os-linux"> <![endif]--><!--[if IE 7]> <html lang="en" class="ie ie7 lte9 lte8 lte7 os-linux"> <![endif]--><!--[if IE 8]> <html lang="en" class="ie ie8 lte9 lte8 os-linux"> <![endif]--><!--[if IE 9]> <html lang="en" class="ie ie9 lte9 os-linux"> <![endif]--><!--[if gt IE 9]> <html lang="en" class="os-linux"> <![endif]--><!--[if !IE]><!--><html lang="en" class="os-linux"><!--<![endif]--><head>
+<meta charset="UTF-8">
 
-  // Get the protocol for the redirect url.
-  var protocol = "http:";
-  if (window.location.protocol == "https:") {
-    protocol = "https:";
-  } else {
-    // If "sl" cookie is set, redirect to https.
-    for (var i = 0; i < cookies.length; ++i) {
-      if ((cookies[i].indexOf("sl=") == 0) && (cookies[i].length > 3)) {
-        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
-        return;
-      }
-    }
-  }
+    
 
-  // Get the new domain. For touch.www.linkedin.com or tablet.www.linkedin.com
-  // we strip "touch." and "tablet.". For international domains such as
-  // fr.linkedin.com, we convert it to www.linkedin.com
-  var domain = location.host;
-  if (domain.substr(0, 6) == "touch.") {
-    domain = domain.substr(6);
-  } else if (domain.substr(0, 7) == "tablet.") {
-    domain = domain.substr(7);
-  } else if (domain.charAt(2) == ".") {
-    domain = "www" + domain.substr(2);
-  }
+<title>Tully Cheng, FSA, CFA | LinkedIn</title>
+
+
+
   
-  window.location.href = "https://" + domain + "/uas/login?trk=" + trk + "&session_redirect=" +
-      encodeURIComponent(protocol + "//" + domain +
-      window.location.href.substr(window.location.href.search(window.location.host) +
-                                  window.location.host.length));
-}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ <meta name="referrer" content="origin"> 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+ <meta name="pageImpressionID" content="37aeb03f-2003-4be8-8d55-6ab11d32e635">
+ 
+ <meta name="appName" content="chrome">
+ 
+ 
+ 
+ 
+ 
+ 
+ <meta name="pageKey" content="public_profile_v3_desktop">
+ 
+
+
+ <meta name="treeID" content="en2UofHTdhRAEILh1CoAAA==">
+ 
+
+ 
+ 
+ 
+ 
+
+ <meta name="globalTrackingUrl" content="//www.linkedin.com/mob/tracking">
+ <meta name="globalTrackingAppName" content="chrome">
+ <meta name="globalTrackingAppId" content="webTracking">
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+  
+
+      
+      
+      
+      
+      
+      
+      
+    
+<!--[if lte IE 8]>
+  <link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/16x16/favicon.ico">
+<![endif]-->
+<!--[if IE 9]>
+  <link rel="shortcut icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
+<![endif]-->
+<link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
+
+
+<link rel="apple-touch-icon-precomposed" href="https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png">
+
+
+<meta name="msapplication-TileImage" content="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo-in-win8-tile-144_v1.png">
+<meta name="msapplication-TileColor" content="#0077B5">
+<meta name="application-name" content="LinkedIn">
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+      
+    
+  
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+    
+    
+  
+    
+    
+  
+  
+  
+
+  
+  
+
+
+
+
+
+
+
+    
+  
+
+
+    
+  
+
+
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+
+
+    
+    
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+      
+      
+        
+        
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+    
+        
+        
+      
+  
+
+
+
+
+
+
+      
+    
+      
+      
+    
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+    
+  
+      
+
+      
+      
+
+
+
+
+
+
+
+     
+      
+    
+    
+        
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+  
+
+
+
+
+
+    
+
+  
+      
+      
+        
+        
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+    
+        
+        
+      
+  
+
+
+
+
+
+
+      
+    
+      
+      
+    
+
+      
+                
+    
+    
+
+
+
+
+
+<meta content="https://static.licdn.com/scds/concat/common/js?v=build-2000_8_58466-prod" name="RemoteNavJSContentBaseURL">
+
+
+
+     
+      
+    
+    
+      
+    
+    
+
+      
+      
+    
+
+      
+      
+    
+    
+    
+    
+    
+
+  
+
+ 
+ 
+ 
+ 
+
+
+
+      
+        
+          
+            
+          
+          
+        
+      
+    
+
+      
+        
+          
+          
+        
+      
+    
+
+
+      
+      
+    
+    
+    
+    
+    
+
+      
+      
+    
+    
+    
+                    <script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=7ndrn0f9fw0hum7uoqcjcnzne-95d8d303rtd0n9wj4dcjbnh2c-7vr4nuab43rzvy2pgq7yvvxjk-9qa4rfxekcw3lt2c06h7p0kmf"></script>
+    
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+     
+      
+    
+    
+  
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+     
+      
+    
+    
+  
+
+      
+                
+    
+    
+
+    
+  
+
+      
+      
+        
+          
+            
+                
+                  
+                  
+                    <link rel="stylesheet" type="text/css" href="https://static.licdn.com/scds/concat/common/css?h=1clmztxulpz3wo3xlrz5vprhk-a4kjc5uqttio53azw54aex6s3-as8kt5bqspxc01tl9cizqa37j">
+                  
+                
+              
+          
+        
+      
+    
+    
+
+
+      
+      
+    
+    
+  
+  
+  
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<script></script>
+
+<!--[if IE 8]><script src="https://static.licdn.com/scds/common/u/lib/polyfill/1.0.2/ie8-polyfill.min.js"></script><![endif]-->
+<!--[if IE 9]><script src="https://static.licdn.com/scds/common/u/lib/polyfill/1.0.2/ie9-polyfill.min.js"></script><![endif]-->
+
+
+ 
+ 
+ 
+
+
+
+  
+    
+      
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+      
+      
+    
+    
+  
+  
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+
+      
+      
+    
+    
+  
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+
+
+  <meta name="lnkd-track-json-lib" content="https://static.licdn.com/scds/concat/common/js?h=2jds9coeh4w78ed9wblscv68v-ebbt2vixcc5qz0otts5io08xv">
+  
+
+
+
+
+
+
+
+
+
+
+      
+      
+    
+    
+  
+  
+  
+  
+
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+      
+      
+    
+    
+    
+      
+      
+    
+  
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+    
+  
+
+    
+      
+        
+          
+            
+                
+                  
+                    <script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=e2lgukqldpqool72t8g7tysag-3nuvxgwg15rbghxm1gpzfbya2-1nm61x5u7981e88m10hpaekkm-mv3v66b8q0h1hvgvd3yfjv5f-14k913qahq3mh0ac0lh0twk9v"></script>
+                  
+                  
+                
+              
+          
+        
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+          
+        
+        
+      
+      
+        <link rel="canonical" href="https://www.linkedin.com/in/tully-cheng-fsa-cfa-802b5522"><link rel="stylesheet" href="https://static.licdn.com/sc/h/3drnstogfpa81ujm9ugh09gxg"><script type="text/javascript" src="https://static.licdn.com/sc/h/4tcd0mh70bs89zecpaumh27p1"></script><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="robots" content="noarchive"><meta name="description" content="View Tully Cheng, FSA, CFA’S professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Tully Cheng, FSA, CFA discover inside connections to recommended job candidates, industry experts, and business partners."><meta name="og:title" content="Tully Cheng, FSA, CFA | LinkedIn"><meta name="og:description" content="View Tully Cheng, FSA, CFA’S professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Tully Cheng, FSA, CFA discover inside connections to recommended job candidates, industry experts, and business partners."><meta property="og:image" content="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAN0AAAAJDAwODhhODBkLWQzN2UtNDZiZC1hNDBkLTAzMGFhMjc4YTczNA.jpg">
+      
+    
+        
+            <link rel="stylesheet" type="text/css" href="https://static.licdn.com/sc/p/com.linkedin.public-profile-frontend%3Apublic-profile-frontend-static-content%2B0.0.634/f/%2Fpublic-profile-frontend%2Ffonts%2Fsource-sans-pro-font.css"></head>
+        
+        
+      
+      
+        
+      
+    
+        
+            
+    
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ <body class="js guest" dir="ltr" id="pagekey-public_profile_v3_desktop">
+
+
+            
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+  
+<div id="application-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+      
+        
+        
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+ 
+
+
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    <header id="layout-header" class="layout-header-or-footer" role="banner">
+
+      
+      
+
+      
+      
+          
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+    
+  
+      
+
+      
+      
+
+
+<div id="header-banner">
+  <div class="wrapper">
+    <a class="banner-logo-container guest" href="http://www.linkedin.com/">
+      <h2 id="li-logo" class="logo">
+        LinkedIn Home
+      </h2>
+    </a>
+    <nav role="navigation" class="nav guest-nav" aria-label="Main site navigation">
+      <ul role="menubar">
+        <li role="menuitem" class="nav-item">
+          <a class="nav-link" href="http://www.linkedin.com/static?key=what_is_linkedin&amp;trk=hb_what">
+            What is LinkedIn?
+          </a>
+        </li>
+        <li role="menuitem" class="nav-item">
+          <a rel="nofollow" class="nav-link" href="/start/join?trk=hb_join">
+            Join Today
+          </a>
+        </li>
+        <li role="menuitem" class="nav-item">
+          <a rel="nofollow" class="nav-link" href="https://www.linkedin.com/uas/login?goback=&amp;trk=hb_signin">
+            Sign In
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+ 
+
+        
+
+      <div class="a11y-content">
+        <a id="a11y-content-link" tabindex="0" name="a11y-content">Main content starts below.</a>
+      </div>
+    
+  
+
+
+
+
+     
+      
+    
+    
+      
+      
+        
+      
+    
+    
+
+      
+        
+          
+            
+            
+              
+                
+                  <script data-page-js-type="lix">
+                    (function(n, r, a) {
+                      r = window[n] = window[n] || {};
+                      
+                        
+                            r['jsecure_injectAlert'] = 'enabled';
+                          
+                      
+                        
+                            r['jsecure_Dialog'] = 'control';
+                          
+                      
+                    }('__li__lix_registry__'));
+                  </script>
+                
+                
+                
+              
+            
+            
+          
+            
+            
+            
+          
+            
+            
+            
+          
+        
+      
+    
+
+      
+      
+    
+    
+    
+      
+        
+      
+    
+    
+
+
+</header>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+            
+
+
+
+
+  
+<main id="layout-main" role="main">
+
+
+
+
+        
+        
+      
+      
+        <script src="https://static.licdn.com/sc/h/eekxmw2mg4t0hh3rax0naa6bb"></script><code id="currentPageUrl" style="display: none;"><!--"https://www.linkedin.com/in/tully-cheng-fsa-cfa-802b5522"--></code><code id="startRegApiCreateAccountCorsUrl" style="display: none;"><!--"https://www.linkedin.com/start/reg/api/cors/createAccount"--></code><code id="isCookiedMember" style="display: none;"><!--false--></code><div id="wrapper"><div id="profile"><section id="topcard" class="profile-section"><div class="profile-card vcard"><div class="profile-picture" data-section="picture"><a href="https://www.linkedin.com/start/view-full-profile?_ed=0_gdbVUqmH6riMaZAji6YuYLqu5lvsBFEdsMlSA8iXTgwurUK9xER3Q8lXUrLStafw&amp;trk=pprof-0-ts-view_full-0"><img lazyload="true" class="image photo lazy-loaded" alt="Tully Cheng, FSA, CFA" width="200" height="200" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAN0AAAAJDAwODhhODBkLWQzN2UtNDZiZC1hNDBkLTAzMGFhMjc4YTczNA.jpg"></a></div><div class="profile-overview"><div class="profile-overview-content"><h1 id="name" class="fn">Tully Cheng, FSA, CFA</h1><p class="headline title" data-section="headline">Director at Prudential Investment Management</p><dl id="demographics"><dt>Location</dt><dd class="descriptor adr"><span class="locality">Greater New York City Area</span></dd><dt>Industry</dt><dd class="descriptor">Investment Management</dd></dl><table class="extra-info"><tbody><tr data-section="currentPositionsDetails"><th>Current</th><td><ol><li><span class="org"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Investment Management</a></span></li></ol></td></tr><tr data-section="pastPositionsDetails"><th>Previous</th><td><ol><li><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Financial</a>, </li><li><a href="https://www.linkedin.com/company/unica?trk=ppro_cprof">Unica</a>, </li><li><a href="https://www.linkedin.com/company/boston-university?trk=ppro_cprof">Boston University</a></li></ol></td></tr><tr data-section="educationsDetails"><th>Education</th><td><ol><li><a href="https://www.linkedin.com/edu/cornell-university-18946?trk=ppro_sprof">Cornell University</a></li></ol></td></tr></tbody></table><div class="member-connections"><strong>500+</strong> connections</div></div></div></div><div class="reg-upsell  advocate-cta-enabled lazy-load"><h2>View Tully’s full profile. It's&nbsp;free!</h2><h3>Your colleagues, classmates, and 400 million other professionals are on LinkedIn.</h3><a href="https://www.linkedin.com/start/view-full-profile?_ed=0_gdbVUqmH6riMaZAji6YuYLqu5lvsBFEdsMlSA8iXTgwurUK9xER3Q8lXUrLStafw&amp;trk=public_profile_advocate-cta-view-full" class="signup-button">View Tully’s Full Profile</a></div></section><section id="summary" data-section="summary" class="profile-section"><h3 class="title">Summary</h3><div class="description"><p>Owing to all the hours of practicing piano since I was six, I understand that all elaborate masterpieces are comprised of simple notes. No one wakes up one day and discovers the cure for cancer, or becomes a professional athlete, or finds himself an accomplished musician. Living takes practice. <br><br>Applying this ideology to my current role, I dedicate myself to bringing innovative and carefully customized portfolio solutions for my clients. I believe that strong performance is built on intelligence, passion, and a strong work ethic. <br> <br>I am passionate about investments and love making new professional acquaintances. I am open to any opportunities in: Hedge Funds, Asset Management, and Sales &amp; Trading. <br><br>Tully Sun Cheng<br>Cornell University <br>Mathematics | Economics | Statistics<br>tullysuncheng@gmail.com</p></div></section><section id="experience" class="profile-section"><h3 class="title">Experience</h3><ul class="positions"><li class="position" data-section="currentPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/000/084/2ed/2c1bf3a.png" class="lazy-load" alt="Prudential Investment Management"></a></h5><h4 class="item-title">Director, Institutional Advisory and Solutions</h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Investment Management</a></h5></header><div class="meta"><span class="date-range"><time>February 2015</time>  –  Present (1 year 8 months)</span></div><p class="description" data-section="currentPositions">- Strategic and tactical asset allocation advisory, asset and liability management, and stochastic cash flow analysis for institutional investors, pension plans, endowments, and sovereign wealth funds<br>- Customize investment strategies, LDI glidepaths, and portfolio solutions for US, European, and Asian clients <br>- Create asset liability management stochastic modeling capabilities to mitigate funding variability, maximizing surplus, and identify risk exposure for pension clients<br>- Publish white papers, case studies, and research reports on contemporary investment topics including alternative assets allocation, regime-switching correlation modeling, and hedging in asset liability management<br><br></p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/000/084/2ed/2c1bf3a.png" class="lazy-load" alt="Prudential Financial"></a></h5><h4 class="item-title">Associate Actuary, Manager</h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Financial</a></h5></header><div class="meta"><span class="date-range"><time>August 2013</time>  –  <time>February 2015</time> (1 year 7 months)</span></div><p class="description" data-section="pastPositions">Received Two Everest Awards of Teamwork for helping Stable Value group reach annual target of $14 Billion in sales<br><br>- Priced $16+ billion of stable value contracts for investment banks, endowments, corporations, and city funds<br>- Utilized Bloomberg and proprietary models to supervise AIG High Watermark Fund [$45m], BOLI payout [$700k], business reporting [$3.0b], and contingency reserve for NY Reg. 128 [$400k] on a monthly basis<br>- Researched and originated a multi-level stochastic credit spread model capturing term structure, tail risk, rating<br>migration and correlation between equity and fixed income markets; Implemented for all Stable Value Pricing<br>- Developed tools to measure risk on 100+ Blackrock CF portfolios reducing 2 day process to 10 minutes<br>- Designed and implemented Blackrock Trend Instrument which automates time series analysis for 40+ risk parameters and generates reports used in function-wide risk meetings with senior leaders</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/000/084/2ed/2c1bf3a.png" class="lazy-load" alt="Prudential Financial"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/senior-actuarial-associate?trk=pprofile_title">Senior Actuarial Associate</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Financial</a></h5></header><div class="meta"><span class="date-range"><time>July 2012</time>  –  <time>August 2013</time> (1 year 2 months)</span></div><p class="description" data-section="pastPositions">- Established $5.7 billion of reserves for the Universal Life (UL) Year End cash flow testing results: 20 model versions with 53 projections, 20 different scenarios, and 60 different sensitivities for each version<br>- Quantified, worked with regulators, and developed model for new regulation AG38 8D and 8E on Arizona and UPARC lines of business establishing $576 million in reserves<br>- Developed code, generated 1,500+ quantification reports, and presented results to Corporate and function team<br>- Facilitated UL model transition by using binary comparison, authoring 20+ pages of documentation, and fixing 13+ categories of errors to reduce a 10% difference to less than 1%</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/000/084/2ed/2c1bf3a.png" class="lazy-load" alt="Prudential Financial"></a></h5><h4 class="item-title">ALDP Actuarial Summer Intern</h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/prudential-financial?trk=ppro_cprof">Prudential Financial</a></h5></header><div class="meta"><span class="date-range"><time>June 2011</time>  –  <time>August 2011</time> (3 months)</span></div><p class="description" data-section="pastPositions">- Applied RAROC Interest Shock on $8+ billion of assets/liabilities and created risk analysis report to senior leaders  <br>- Facilitated team transition into ALFA by remodeling mortgages, IMR, and ADR for entire Group Insurance block<br>- Prepared the Trust-Owned Life Insurance Monthly Report by amortizing and deferring acquisition costs for the month</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/unica?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/000/0b7/2c4/1f7a73c.png" class="lazy-load" alt="Unica"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/data-entry-specialist?trk=pprofile_title">Data Entry Specialist</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/unica?trk=ppro_cprof">Unica</a></h5></header><div class="meta"><span class="date-range"><time>June 2010</time>  –  <time>September 2010</time> (4 months)</span></div><p class="description" data-section="pastPositions">- Effectively researched and documented products and marketing techniques of competitor companies<br>- Retrieved marketing information about potential customer companies and categorized them based on Unica’s marketing service<br>- Categorized customers based on position and department to consolidate and streamline the Unica Database</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/boston-university?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/1/005/009/1d9/397a492.png" class="lazy-load" alt="Boston University"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/undergraduate-researcher?trk=pprofile_title">Undergraduate Researcher</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/boston-university?trk=ppro_cprof">Boston University</a></h5></header><div class="meta"><span class="date-range"><time>January 2010</time>  –  <time>August 2010</time> (8 months)</span><span class="location">Greater Boston Area</span></div><p class="description" data-section="pastPositions">- Constructed 12 algorithms to perform Fourier analysis on brain rhythms, power, and bands in epileptic and normal patients<br>- Authored scientific poster and scientific abstract on research of drug effects, stage of sleep, and placement locations of EEG nodes on alpha and beta pulses in patients which was presented in a research symposium</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/epigendx?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/2/000/04f/03e/3f3cc3e.png" class="lazy-load" alt="EpigenDx"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/research-technician?trk=pprofile_title">Research Technician</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/epigendx?trk=ppro_cprof">EpigenDx</a></h5></header><div class="meta"><span class="date-range"><time>May 2009</time>  –  <time>August 2009</time> (4 months)</span></div><p class="description" data-section="pastPositions">- Effectively marketed and promoted Epigen Dx services and products by creating flyers and advertisements, increasing sales<br>- Serviced customer calls/emails and completed business deals with around two customers every week<br>- Processed business transactions and reviewed pricing sheets and financials for future reference<br>- Authored several 8-page scientific reports daily and reviewed journals to promote client/company understanding of Epigenetics<br>- Developed a security procedure that protects the veracity and integrity of all scientific company documents</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/curis?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/2/000/246/3b5/1011848.png" class="lazy-load" alt="Curis"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/research-intern?trk=pprofile_title">Research Intern</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/curis?trk=ppro_cprof">Curis</a></h5></header><div class="meta"><span class="date-range"><time>June 2008</time>  –  <time>July 2008</time> (2 months)</span></div><p class="description" data-section="pastPositions">Cancer Cell Department Researcher<br>- Cultured, handled, and screened cancer cells to establish effectiveness of cancer drugs and malignance of disease<br>- Mastered laboratory protocols including PCR and Western Blots to analyze specific protein and DNA presence<br>- Applied statistical analyses tests to contrast laboratory results in order to conclude significance of scientific data</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/national-institutes-of-health?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/AAEAAQAAAAAAAAZxAAAAJGQ4OTczN2IzLTMzMjItNDI4ZC05NWRlLTNkZDY0MjFkMDg1MQ.png" class="lazy-load" alt="National Institutes of Health"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/summer-internship?trk=pprofile_title">Summer Internship</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/national-institutes-of-health?trk=ppro_cprof">National Institutes of Health</a></h5></header><div class="meta"><span class="date-range"><time>June 2007</time>  –  <time>September 2007</time> (4 months)</span></div><p class="description" data-section="pastPositions">- Applied Western Blot procedures and gel electrophoresis to analyze presence of Gs-alpha protein subunit<br>- Performed multiple regression analysis and ANOVA in order to determine diabetic effects of tissue specific knockout after <br>injecting the mice with high concentrations of glucose<br>- Designed detailed summary reports for future reference and presentation during business meetings<br>- Investigated scientific articles with a team of graduate students to promote further understanding of innovations within the field</p></li><li class="position" data-section="pastPositionsDetails"><header><h5 class="logo"><a href="https://www.linkedin.com/company/curis?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/2/000/246/3b5/1011848.png" class="lazy-load" alt="Curis"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/title/research-intern?trk=pprofile_title">Research Intern</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/curis?trk=ppro_cprof">Curis</a></h5></header><div class="meta"><span class="date-range"><time>June 2006</time>  –  <time>September 2006</time> (4 months)</span></div><p class="description" data-section="pastPositions">Stem Cell Department Researcher<br>- Programmed and streamlined protocols in machines [Mapp-D and U-Fill] increasing efficiency of cell staining process  <br>- Cultured, purified, and cloned DNA/cells using PCR to investigate anomalies and noticeable effects of various applied drugs  <br>- Dissected mice embryos/removed spinal cords to screen via High Throughput Screening and Reporter Gene Luciferase Assays</p></li></ul></section><section id="education" data-section="educationsDetails" class="profile-section"><h3 class="title">Education</h3><ul class="schools"><li class="school"><header><h5 class="logo"><a href="https://www.linkedin.com/edu/cornell-university-18946?trk=ppro_sprof"><img lazyload="true" class="lazy-load" alt="Cornell University" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/p/2/005/020/016/002b4cd.png" width="60" height="60"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/edu/cornell-university-18946?trk=ppro_sprof">Cornell University</a></h4><h5 class="item-subtitle"><span class="translated translation" data-field-name="Education.DegreeName">Bachelor's Degree, Mathematics, Economics, Statistics, 4.0</span><span class="original translation" data-field-name="Education.DegreeName">Bachelor's Degree, Mathematics, Economics, Statistics, 4.0</span></h5></header><div class="meta"><span class="date-range"><time>2010</time>  –  <time>2012</time></span></div><div class="description" data-section="educations"><p>Awarded Economic Theory Prize</p><p>Activities and Societies: President and Founder of Cornell University’s Business in Health Policy Society, Vice President of Short Term Investors of Cornell University, Vice President of Marketing/Business and Editor of Business Asia Journal at Cornell University, Research Analyst Director of Cornell University’s Behavioral Economics and Finance Organization, Phi Beta Kappa Honors Society</p></div></li><li class="school"><header><h5 class="logo"><a href="https://www.linkedin.com/edu/boston-university---school-of-management-18462?trk=ppro_sprof"><img lazyload="true" class="lazy-load" alt="Boston University - School of Management" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAKKAAAAJDUwZThhN2JhLWJkNjAtNDhlZC1hOTYxLTdiYWJjZDI3ZjY4Zg.png" width="60" height="60"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/edu/boston-university---school-of-management-18462?trk=ppro_sprof">Boston University - School of Management</a></h4><h5 class="item-subtitle"><span class="translated translation" data-field-name="Education.DegreeName">Medical Sciences, Business Administration w/ conc. in Finance, 3.9</span><span class="original translation" data-field-name="Education.DegreeName">Medical Sciences, Business Administration w/ conc. in Finance, 3.9</span></h5></header><div class="meta"><span class="date-range"><time>2008</time>  –  <time>2010</time></span></div><div class="description" data-section="educations"><p>Scientific publication for Fourier analysis on EEG, alpha/beta pulse, and brain rhythms of epileptic patients</p><p>Activities and Societies: Senior Analyst in Boston University’s Finance and Investment Club, President and Founder of Boston University’s Health Policy Society, Vice President of Boston University’s Transcendentalist Society, Orchestra</p></div></li><li class="school"><header><h4 class="item-title">Wayland High School</h4><h5 class="item-subtitle"><span class="translated translation" data-field-name="Education.DegreeName">High School, Top 2%</span><span class="original translation" data-field-name="Education.DegreeName">High School, Top 2%</span></h5></header><div class="meta"><span class="date-range"><time>2004</time>  –  <time>2008</time></span></div><div class="description" data-section="educations"><p>First Place in State Math Exam, Fourth Place in State Chemistry Exam, AIME/AMC Top Scorer &amp; Distinction Pin w/ Certficate, Continential Math League Top Scorer, MAML Top Scorer, 3+ Gold Medals in Science Olympiad, 10+ Gold Medals in Academic Decathlon with Top Scorer Trophy for District, 4 Gold Medals for Orchestra Competitions</p><p>Activities and Societies: Captian of Science Olympiad, Captain of Academic Decathlon, Treasurer of Model UN, Full Orchestra Concert Master, String Orchestra Concert Master, Symphonia Orchestra Concert Master, Chorus, A Cappella, Math Team, Varsity Track</p></div></li></ul></section><section id="skills" data-section="skills" class="profile-section skills-section"><h3 class="title">Skills</h3><ul class="pills"><input type="checkbox" id="skills-expander-state-checkbox" class="expander-state-checkbox"><li class="skill"><a href="https://www.linkedin.com/topic/matlab?trk=pprofile_topic" title="Matlab"><span class="wrap">Matlab</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/investment-management?trk=pprofile_topic" title="Investment Management"><span class="wrap">Investment Management</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/fundamental-analysis?trk=pprofile_topic" title="Fundamental Analysis"><span class="wrap">Fundamental Analysis</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/visual-basic?trk=pprofile_topic" title="Visual Basic"><span class="wrap">Visual Basic</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/portfolio-management?trk=pprofile_topic" title="Portfolio Management"><span class="wrap">Portfolio Management</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/stable-value?trk=pprofile_topic" title="Stable Value"><span class="wrap">Stable Value</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/technical-analysis?trk=pprofile_topic" title="Technical Analysis"><span class="wrap">Technical Analysis</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/risk-management?trk=pprofile_topic" title="Risk Management"><span class="wrap">Risk Management</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/stochastic-modeling?trk=pprofile_topic" title="Stochastic Modeling"><span class="wrap">Stochastic Modeling</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/programming?trk=pprofile_topic" title="Programming"><span class="wrap">Programming</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/bloomberg-certified?trk=pprofile_topic" title="Bloomberg Certified"><span class="wrap">Bloomberg Certified</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/sas?trk=pprofile_topic" title="SAS"><span class="wrap">SAS</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/stata?trk=pprofile_topic" title="Stata"><span class="wrap">Stata</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/sql?trk=pprofile_topic" title="SQL"><span class="wrap">SQL</span></a></li><li class="skill"><a href="https://www.linkedin.com/topic/unix?trk=pprofile_topic" title="Unix"><span class="wrap">Unix</span></a></li><li class="skill see-more"><label for="skills-expander-state-checkbox" class="wrap">See 14+</label></li><li class="skill extra"><a href="https://www.linkedin.com/topic/vba?trk=pprofile_topic" title="VBA"><span class="wrap">VBA</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/alfa?trk=pprofile_topic" title="ALFA"><span class="wrap">ALFA</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/cash-flow-reporting?trk=pprofile_topic" title="Cash Flow Reporting"><span class="wrap">Cash Flow Reporting</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/fixed-income?trk=pprofile_topic" title="Fixed Income"><span class="wrap">Fixed Income</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/equity-research?trk=pprofile_topic" title="Equity Research"><span class="wrap">Equity Research</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/life-insurance?trk=pprofile_topic" title="Life Insurance"><span class="wrap">Life Insurance</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/microsoft-office?trk=pprofile_topic" title="Microsoft Office"><span class="wrap">Microsoft Office</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/microsoft-excel?trk=pprofile_topic" title="Microsoft Excel"><span class="wrap">Microsoft Excel</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/statistics?trk=pprofile_topic" title="Statistics"><span class="wrap">Statistics</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/analysis?trk=pprofile_topic" title="Analysis"><span class="wrap">Analysis</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/financial-modeling?trk=pprofile_topic" title="Financial Modeling"><span class="wrap">Financial Modeling</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/economics?trk=pprofile_topic" title="Economics"><span class="wrap">Economics</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/quantitative-analytics?trk=pprofile_topic" title="Quantitative Analytics"><span class="wrap">Quantitative Analytics</span></a></li><li class="skill extra"><a href="https://www.linkedin.com/topic/bloomberg?trk=pprofile_topic" title="Bloomberg"><span class="wrap">Bloomberg</span></a></li><li class="skill see-less extra"><label for="skills-expander-state-checkbox" class="wrap">See less</label></li></ul><div class="translation-voter-wrap"><div class="translation-voter"><span>How's this translation?</span><ul class="voter-form"><li class="action option positive"><span class="action positive">Great</span></li><li class="separator">•</li><li class="action option negative"><span class="action negative">Has errors</span></li></ul></div><div class="translation-voter-response">Thanks for your help!</div></div></section><section id="certifications" data-section="certifications" class="profile-section"><h3 class="title">Certifications</h3><ul class="certifications"><li class="certification"><header><h4 class="item-title"><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Esoa%2Eorg%2Fmember%2F&amp;urlhash=baOd&amp;trk=profile_certification_title" class="external-link">Fellow of the Society of Actuaries [FSA]</a></h4><h5 class="item-subtitle">Society of Actuaries</h5><div class="meta"><span class="date-range"><time>August 2015</time>  –  Present</span></div></header></li><li class="certification"><header><h5 class="logo"><a href="https://www.linkedin.com/company/cfa-institute?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/p/4/000/16f/389/0c5b61d.png" class="lazy-load" alt=""></a></h5><h4 class="item-title">Chartered Financial Analyst</h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/cfa-institute?trk=ppro_cprof">CFA Institute</a></h5><div class="meta"><span class="date-range"><time>September 2016</time>  –  Present</span></div></header></li><li class="certification"><header><h5 class="logo"><a href="https://www.linkedin.com/company/society-of-actuaries?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/AAEAAQAAAAAAAAWYAAAAJGIzN2Q0MGM3LWViMWUtNDRhOS04MzI2LTEwYzliNGMwMzM0Yg.png" class="lazy-load" alt=""></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Esoa%2Eorg%2Fmember%2F&amp;urlhash=baOd&amp;trk=profile_certification_title" class="external-link">Certified Enterprise Risk Analyst [CERA]</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/society-of-actuaries?trk=ppro_cprof">Society of Actuaries</a></h5><div class="meta"><span class="date-range"><time>January 2015</time>  –  Present</span></div></header></li><li class="certification"><header><h5 class="logo"><a href="https://www.linkedin.com/company/american-academy-of-actuaries?trk=ppro_cprof"><img data-delayed-url="https://media.licdn.com/media/AAEAAQAAAAAAAAeTAAAAJGUwNDkwMzlkLWQ0MDQtNDE4Yy1iYjQzLTBjMWZmZmJlMzk4Mw.png" class="lazy-load" alt=""></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fwww%2Eactuary%2Eorg%2F&amp;urlhash=vZ2p&amp;trk=profile_certification_title" class="external-link">Member of the American Academy of Actuaries [MAAA]</a></h4><h5 class="item-subtitle"><a href="https://www.linkedin.com/company/american-academy-of-actuaries?trk=ppro_cprof">American Academy of Actuaries</a></h5><div class="meta"><span class="date-range"><time>January 2014</time>  –  Present</span></div></header></li></ul></section><section id="languages" data-section="languages" class="profile-section"><h3 class="title">Languages</h3><ul><li class="language"><div class="wrap"><h4 class="name">Spanish</h4><p class="proficiency">Limited working proficiency</p></div></li><li class="language"><div class="wrap"><h4 class="name">Chinese</h4><p class="proficiency">Professional working proficiency</p></div></li><li class="language"><div class="wrap"><h4 class="name">Latin</h4><p class="proficiency">Elementary proficiency</p></div></li></ul></section><section id="interests" data-section="interests" class="profile-section"><h3 class="title">Interests</h3><ul class="pills"><input type="checkbox" id="interests-expander-state-checkbox" class="expander-state-checkbox"><li class="interest"><a href="https://www.linkedin.com/topic/stock-trading?trk=pprofile_topic" title="Stock Trading"><span class="wrap">Stock Trading</span></a></li><li class="interest"><a href="https://www.linkedin.com/title/music-composer?trk=pprofile_topic" title="Music Composer"><span class="wrap">Music Composer</span></a></li><li class="interest"><a href="https://www.linkedin.com/topic/running?trk=pprofile_topic" title="Running"><span class="wrap">Running</span></a></li><li class="interest"><a href="https://www.linkedin.com/topic/violin?trk=pprofile_topic" title="Violin"><span class="wrap">Violin</span></a></li><li class="interest"><a href="https://www.linkedin.com/topic/piano?trk=pprofile_topic" title="Piano"><span class="wrap">Piano</span></a></li><li class="interest"><a href="https://www.linkedin.com/topic/guitar?trk=pprofile_topic" title="Guitar"><span class="wrap">Guitar</span></a></li></ul></section><section id="publications" data-section="publications" class="profile-section"><h3 class="title">Publications</h3><ul><li class="publication"><header><h4 class="item-title"><a href="https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Epgim%2Ecom%2Fwps%2Fwcm%2Fconnect%2Fec44ffeb-67ac-46b1-943f-8e3fdcf668d8%2FIAS-Alternatives-WP%2Epdf%3FMOD%3DAJPERES%26CVID%3DloTqD%2EH&amp;urlhash=SXuu&amp;trk=prof-publication-title-link" title="Revisiting the Role of Alternatives in Asset Allocation" class="external-link">Revisiting the Role of Alternatives in Asset Allocation</a></h4><h5 class="item-subtitle">PGIM</h5></header><p class="description">From the US stock market’s bottom in March 2009 through December 2015, US broad market equity indices returned more than 200%, far surpassing the gains made in most alternative strategies. As a result, many institutional investors are finding themselves faced with the question: Why invest in alternative assets if they underperformed equities and cost significantly more than traditional strategies?</p><dl class="contributors"><dt>Authors: </dt><dd><ul><li class="contributor"><a href="https://www.linkedin.com/in/tully-cheng-fsa-cfa-802b5522">Tully Cheng, FSA, CFA</a>, </li><li class="contributor"><a href="https://www.linkedin.com/in/harshparikh">Harsh Parikh</a></li></ul></dd></dl></li></ul></section><section id="volunteering" data-section="volunteering" class="profile-section"><h3 class="title">Volunteer Experience &amp; Causes</h3><div class="opportunities extra-section"><h4 class="title">Opportunities Tully is looking for:</h4><ul><li>Joining a nonprofit board</li><li>Skills-based volunteering (pro bono consulting)</li></ul></div></section><section id="groups" data-section="groups" class="profile-section"><h3 class="title">Groups</h3><ul><input type="checkbox" id="groups-expander-state-checkbox" class="expander-state-checkbox"><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=3647863&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/p/3/000/079/25f/21a17a7.png" alt="Cornell University Class of 2012" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=3647863&amp;trk=prof-groups-membership-name">Cornell University Class of 2012</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=4032539&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/p/3/000/0df/29c/1ea9dd5.png" alt="Cornell Asia Business Forum" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=4032539&amp;trk=prof-groups-membership-name">Cornell Asia Business Forum</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=2534&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/p/2/000/000/26e/15be806.gif" alt="Cornell University Alumni" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=2534&amp;trk=prof-groups-membership-name">Cornell University Alumni</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=2115144&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/p/2/000/02b/0f0/36fc730.png" alt="Cornellians International" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=2115144&amp;trk=prof-groups-membership-name">Cornellians International</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=56232&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/AAEAAQAAAAAAAAJSAAAAJDE4NzM5MDU1LTdiMTItNDdmMy1iZmI5LTZlNDUzNzBjZGMwMw.png" alt="Boston University Alumni" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=56232&amp;trk=prof-groups-membership-name">Boston University Alumni</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=2010294&amp;trk=fulpro_grplogo"><img data-delayed-url="https://static.licdn.com/scds/common/u/img/icon/group/icon_group_100x50_v2.png" width="100" height="50" alt="Passive Investing" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=2010294&amp;trk=prof-groups-membership-name">Passive Investing</a></h4></li><li class="group"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=3825142&amp;trk=fulpro_grplogo"><img data-delayed-url="https://media.licdn.com/media/AAEAAQAAAAAAAAX9AAAAJGExZDY1ZWE4LTNkNDQtNDVkYS04MjE1LTdmNmZjOGU5OTI1MA.png" alt="ARPM - Advanced Risk and Portfolio Management" class="lazy-load"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=3825142&amp;trk=prof-groups-membership-name">ARPM - Advanced Risk and Portfolio Management</a></h4></li><li class="group see-more"><label for="groups-expander-state-checkbox" class="wrap"><span class="wrap-icon"><i></i></span><span class="caption">See 6 more</span></label></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=3186853&amp;trk=fulpro_grplogo"><img alt="Leverage Academy Network" class="lazy-loaded" src="https://media.licdn.com/media/p/2/000/063/133/0f7ff18.png"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=3186853&amp;trk=prof-groups-membership-name">Leverage Academy Network</a></h4></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=95291&amp;trk=fulpro_grplogo"><img alt="Finance and Investment Management" class="lazy-loaded" src="https://media.licdn.com/media/AAEAAQAAAAAAAAhEAAAAJDYyM2NlYWUyLTEyYmEtNDcxYy1hYjMwLTZjOGMwNWMyMmZlMA.png"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=95291&amp;trk=prof-groups-membership-name">Finance and Investment Management</a></h4></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=3907526&amp;trk=fulpro_grplogo"><img alt="Investment Management Careers" class="lazy-loaded" src="https://media.licdn.com/media/p/1/000/0b9/0e1/0004ae1.png"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=3907526&amp;trk=prof-groups-membership-name">Investment Management Careers</a></h4></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=2161437&amp;trk=fulpro_grplogo"><img alt="Cornell Wall Street (CWS)" class="lazy-loaded" src="https://media.licdn.com/media/p/2/000/02e/2df/0d793eb.png"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=2161437&amp;trk=prof-groups-membership-name">Cornell Wall Street (CWS)</a></h4></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=2939986&amp;trk=fulpro_grplogo"><img alt="CEN Group" class="lazy-loaded" src="https://media.licdn.com/media/p/3/000/057/17c/207d2eb.png"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=2939986&amp;trk=prof-groups-membership-name">CEN Group</a></h4></li><li class="group extra"><h5 class="logo"><a href="https://www.linkedin.com/groups?gid=958&amp;trk=fulpro_grplogo"><img alt="Cornell University Alumni Network" class="lazy-loaded" src="https://media.licdn.com/media/p/1/000/000/005/35f7b0a.gif"></a></h5><h4 class="item-title"><a href="https://www.linkedin.com/groups?gid=958&amp;trk=prof-groups-membership-name">Cornell University Alumni Network</a></h4></li><li class="group see-less extra"><label for="groups-expander-state-checkbox" class="wrap"><span class="wrap-icon"><i></i></span><span class="caption">See less</span></label></li></ul><div class="reg-upsell "><h2>View Tully’s full profile to...</h2><ul><li>See who you know in common</li><li>Get introduced</li><li>Contact <strong>Tully</strong> directly</li></ul><a href="https://www.linkedin.com/start/view-full-profile?_ed=0_gdbVUqmH6riMaZAji6YuYLqu5lvsBFEdsMlSA8iXTgwurUK9xER3Q8lXUrLStafw&amp;trk=public_profile_advocate-cta-view-full" class="signup-button">View Tully’s Full Profile</a></div></section></div><div id="aux"><section class="insights"><div class="name-search"><h3 class="title">Search by name</h3><p class="blurb">Over 400 million professionals are already on LinkedIn. Find who you know.</p><form action="https://www.linkedin.com/pub/dir/" method="get"><label for="firstName">First Name</label><input type="text" name="first" id="firstName" placeholder="First Name"><label for="lastName">Last Name</label><input type="text" name="last" id="lastName" placeholder="Last Name"><input type="hidden" name="trk" value="prof-samename-search-submit"><button aria-label="Search" type="submit"><span></span></button><p class="tip"><strong>Example: </strong> <a href="https://www.linkedin.com/in/jeffweiner08">Jeff Weiner</a></p></form></div><section class="badge profile-section"><h3 class="title">Public profile badge</h3><p class="description">Include this LinkedIn profile on other websites</p><a class="cta" href="https://www.linkedin.com/badges/profile/create?vanityname=tully-cheng-fsa-cfa-802b5522&amp;trk=profile-badge-public-profile">View profile badges</a></section><div class="browse-map"><h3 class="title">People Also Viewed</h3><ul><li class="profile-card"><a href="https://www.linkedin.com/in/dai-grace-li-9799952b?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAMfAAAAJGQ2NzgzMTZmLTIxYzgtNDhlNC04NTc2LTM4ODRhMDgyYmNjMQ.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/dai-grace-li-9799952b?trk=pub-pbmap">Dai (Grace) Li</a></h4><p class="headline">MBA Candidate at Harvard Business School</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/harshparikh?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAd1AAAAJDE2NGVlMTM4LTk2NjYtNDk0Ni1iZGYzLWMyYWU4Y2MwZGY1YQ.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/harshparikh?trk=pub-pbmap">Harsh Parikh</a></h4><p class="headline">Investment Vice President - PGIM Institutional Advisory &amp; Solutions</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/michael-schlachter-cfa-a68b2467?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/p/5/005/088/3cd/2061a92.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/michael-schlachter-cfa-a68b2467?trk=pub-pbmap">Michael Schlachter, CFA</a></h4><p class="headline">Partner - Senior Consultant at Mercer Investment Consulting</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/hongnicole?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAATlAAAAJDA1MjMxM2Q5LTAwYTktNDE3NS04YTVlLTEwNmM4Yjg1NTg0Ng.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/hongnicole?trk=pub-pbmap">Nicole Hong</a></h4><p class="headline">Director at Prudential Financial</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/karen-mcquiston-45872961?trk=pub-pbmap"><img data-delayed-url="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_100x100_v1.png" class="lazy-load" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/karen-mcquiston-45872961?trk=pub-pbmap">Karen McQuiston</a></h4></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/christopher-krug-cfa-8231488?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAVMAAAAJDI1MTU5OWZlLTY0NGMtNGE4Ny1hMzdhLWUyYzA2MTJhMjk5NA.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/christopher-krug-cfa-8231488?trk=pub-pbmap">Christopher Krug, CFA</a></h4><p class="headline">Vice President, BlackRock Portfolio Solutions</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/timothy-lalevee-53421216?trk=pub-pbmap"><img data-delayed-url="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_100x100_v1.png" class="lazy-load" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/timothy-lalevee-53421216?trk=pub-pbmap">Timothy Lalevee</a></h4><p class="headline">Associate at PGIM Multi-Asset Class Solutions</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/weihanchang?trk=pub-pbmap"><img data-delayed-url="https://static.licdn.com/scds/common/u/images/themes/katy/ghosts/person/ghost_person_100x100_v1.png" class="lazy-load" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/weihanchang?trk=pub-pbmap">Weihan Chang, ASA, MAAA</a></h4><p class="headline">Associate Actuary at Prudential Financial</p></div></li><li class="profile-card"><a href="https://www.linkedin.com/in/alanparkerlue?trk=pub-pbmap"><img lazyload="true" class="lazy-load" data-delayed-url="https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAhrAAAAJDU1MmQ0NWMyLWZkNDgtNDI5My1hM2U5LTJkNTQ1OTI5ZmE2Ng.jpg" width="100" height="100"></a><div class="info"><h4 class="item-title"><a href="https://www.linkedin.com/in/alanparkerlue?trk=pub-pbmap">Alan Parker Lue</a></h4><p class="headline">Vice President, Institutional Advisory &amp; Solutions at PGIM</p></div></li></ul></div></section><section id="ad" class="profile-section"><iframe width="300" scrolling="no" height="250" frameborder="0" allowtransparency="true" border="0" data-src="/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bcompany%3D676154357%3Bpcntry%3Dus" src="/csp/dtag?sz=300x250&amp;ti=2&amp;p=1&amp;z=full_profile&amp;_x=%3Bcompany%3D676154357%3Bpcntry%3Dus"></iframe><script>window.addEventListener('load', function () {var iframes = document.getElementsByTagName("iframe");for (var i = 0; i < iframes.length; i++) {var iframe = iframes[i],src = iframe.getAttribute('data-src');if (src) {iframe.src = src;}}});</script></section></div><div id="directory" class="us"><h3 class="title">LinkedIn member directory:</h3><ol type="a" class="primary"><li><a href="https://www.linkedin.com/directory/people-a/">a</a></li><li><a href="https://www.linkedin.com/directory/people-b/">b</a></li><li><a href="https://www.linkedin.com/directory/people-c/">c</a></li><li><a href="https://www.linkedin.com/directory/people-d/">d</a></li><li><a href="https://www.linkedin.com/directory/people-e/">e</a></li><li><a href="https://www.linkedin.com/directory/people-f/">f</a></li><li><a href="https://www.linkedin.com/directory/people-g/">g</a></li><li><a href="https://www.linkedin.com/directory/people-h/">h</a></li><li><a href="https://www.linkedin.com/directory/people-i/">i</a></li><li><a href="https://www.linkedin.com/directory/people-j/">j</a></li><li><a href="https://www.linkedin.com/directory/people-k/">k</a></li><li><a href="https://www.linkedin.com/directory/people-l/">l</a></li><li><a href="https://www.linkedin.com/directory/people-m/">m</a></li><li><a href="https://www.linkedin.com/directory/people-n/">n</a></li><li><a href="https://www.linkedin.com/directory/people-o/">o</a></li><li><a href="https://www.linkedin.com/directory/people-p/">p</a></li><li><a href="https://www.linkedin.com/directory/people-q/">q</a></li><li><a href="https://www.linkedin.com/directory/people-r/">r</a></li><li><a href="https://www.linkedin.com/directory/people-s/">s</a></li><li><a href="https://www.linkedin.com/directory/people-t/">t</a></li><li><a href="https://www.linkedin.com/directory/people-u/">u</a></li><li><a href="https://www.linkedin.com/directory/people-v/">v</a></li><li><a href="https://www.linkedin.com/directory/people-w/">w</a></li><li><a href="https://www.linkedin.com/directory/people-x/">x</a></li><li><a href="https://www.linkedin.com/directory/people-y/">y</a></li><li><a href="https://www.linkedin.com/directory/people-z/">z</a></li><li><a href="https://www.linkedin.com/directory/people-1/">more</a></li><li class="country-search">Browse members <a href="https://www.linkedin.com/directory/country_listing/">by country</a></li></ol></div><script type="text/javascript">(function() {var DOMAIN_NAME = window.location.hostname.replace(/.*\.([^\.]+\.[^\.]+)/, '$1'),DOMAIN_NAME_PROD = 'linkedin.com';function getRemoteFrameUrl() {return ('https:' === document.location.protocol ? 'https://' : 'http://') + 'platform.' + DOMAIN_NAME + '/js/thirdPartyJSDelegatorFrame.html';}function loadExternalTracking () {var thirdPartyJs = new Espany({remote: getRemoteFrameUrl(),ready: function() {if(DOMAIN_NAME !== DOMAIN_NAME_PROD) {return;}thirdPartyJs.loadScript('analyticsjs').result(function(msg) {thirdPartyJs.run('ga', ['create', 'UA-62256447-1', {'cookieDomain': DOMAIN_NAME_PROD}]);thirdPartyJs.run('ga', ['set','referrer', document.referrer]);thirdPartyJs.run('ga', ['set','location', window.location.href]);thirdPartyJs.run('ga', ['send','pageview', {page: 'public_profile_v3_desktop'}]);});}});}window.addEventListener('load', loadExternalTracking);})();</script></div>
+      
+    
+        
+            
+
+
+
+
+  </main> 
+
+
+        
+        
+      
+      
+        
+      
+    
+        
+            
+            
+
+
+
+
+
+
+
+
+      
+      
+    
+    
+
+  
+
+    
+    
+
+
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  
+
+
+  
+
+    
+    
+    
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+  
+  
+
+
+
+
+    
+  
+
+
+
+
+
+
+    
+    
+    
+      
+    
+
+    
+    
+
+
+
+
+
+
+
+    
+    
+        
+            
+          
+      
+  
+
+    
+    
+
+    
+    
+
+    
+      
+    
+
+    
+    
+    
+
+    
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+      
+
+
+
+
+
+
+
+    
+  
+
+
+
+  
+    
+        
+      
+  
+
+
+    
+
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+      
+        
+          
+            
+                
+                  
+                    <script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=a06jpss2hf43xwxobn0gl598m-44hhbxag3hinac547ym9vby09-a4lcy9x33w9gvnro4s0fw3e8z-9zz2lhu3eq1epk7sq1t8cdb5s-cka8kpkro4boynr3tivfkppls-9o2gces8tdiaq46j2fgjkg6d4-bctwwqj7p01tcj2smshz2bboe-aaykw1861wb5yl2yeseicumeh-bftaa82sjwcbrohoe28skni7b-2r8hqscu9unerft0cqwr58gz1-acapv3trxf5gmj7o87qomcp3f-cfabcg4u1cj0em4yissh5mfxu"></script>
+                  
+                  
+                
+              
+          
+        
+      
+    
+    
+
+
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+  
+  
+      
+      
+
+      
+        
+      
+
+
+
+      
+        
+          
+            
+          
+          
+        
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer id="layout-footer" class="layout-header-or-footer" role="contentinfo">
+    <div class="wrapper">
+      
+
+      
+        
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+
+  
+      <p class="copyright guest"><span>LinkedIn Corporation</span> <em>© 2016</em></p>
+    
+
+  <ul class="nav-legal" role="navigation" aria-label="Footer Legal Menu">
+    <li role="menuitem"><a href="http://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag">User Agreement</a></li>
+    <li role="menuitem"><a href="http://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv">Privacy Policy</a></li>
+    
+    <li role="menuitem"><a href="https://linkedin.com/help/linkedin/answer/34593?lang=en">Community Guidelines</a></li>
+    <li role="menuitem"><a href="http://www.linkedin.com/legal/cookie-policy?trk=hb_ft_cookie">Cookie Policy</a></li>
+    <li role="menuitem"><a href="http://www.linkedin.com/legal/copyright-policy?trk=hb_ft_copy">Copyright Policy</a></li>
+    
+    
+      <li role="menuitem"><a href="/psettings/guest-email-unsubscribe?trk=hb_ft_gunsub" rel="nofollow">Unsubscribe</a></li>
+    
+
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+  
+ 
+
+  </ul>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+      
+
+    </div> 
+  </footer> 
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+      
+        
+          
+            
+            
+            
+          
+            
+            
+            
+          
+            
+            
+              
+                
+                  <script data-page-js-type="config">
+                    (function(n, r, a) {
+                      r = window[n] = window[n] || {};
+                      
+                        
+                            
+                                a = r['WebTracking'] = r['WebTracking'] || {};
+                                a['URLs'] = {'saveWebActionTrackURL':'\/lite\/secure-web-action-track?csrfToken=ajax%3A5311626217359674443'};
+                              
+                          
+                      
+                    }('__li__config_registry__'));
+                  </script>
+                
+                
+                
+              
+            
+            
+          
+        
+      
+    
+
+  
+  
+
+  
+      
+      
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+      
+        
+        
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+ 
+
+
+
+      
+    
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+  
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+    
+    
+
+    
+    
+      
+      
+        
+        
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+    
+  
+      
+      
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+
+
+
+    
+        
+        
+      
+  
+
+
+
+
+
+
+      
+    
+      
+        
+            
+            
+        
+          
+      
+    
+
+  
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+ 
+
+
+  
+  
+
+
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+
+
+      
+    
+  
+      
+      
+
+      
+        
+      
+
+
+
+
+  
+    
+      
+        
+          
+            
+          
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            
+          
+          
+        
+      
+    
+
+    
+    
+      
+        
+          
+            
+          
+          
+        
+      
+    
+    
+      
+        
+          
+          
+        
+      
+    
+
+    
+    
+      
+        
+          
+          
+        
+      
+    
+
+    
+      
+        
+          
+            
+            
+              
+                
+                  <script data-page-js-type="lix">
+                    (function(n, r, a) {
+                      r = window[n] = window[n] || {};
+                      
+                        
+                            r['global_bsp_notice_type'] = 'warning';
+                          
+                      
+                        
+                            r['global_bsp_notice_autoHide'] = 'false';
+                          
+                      
+                        
+                            r['global_bsp_view_threshold'] = 'c5';
+                          
+                      
+                    }('__li__lix_registry__'));
+                  </script>
+                
+                
+                
+              
+            
+            
+          
+            
+            
+              
+                
+                  <script data-page-js-type="i18n">
+                    (function(n, r, a) {
+                      r = window[n] = window[n] || {};
+                      
+                        
+                            r['global_browser_unsupported_notice'] = 'Looks like you\'re using a browser that\'s not supported. <a target=\"_blank\" href=\"https:\/\/linkedin.com\/help\/linkedin\/answer\/4135?lang=en\">Learn more about browsers you can use.<\/a>';
+                          
+                      
+                    }('__li__i18n_registry__'));
+                  </script>
+                
+                
+                
+              
+            
+            
+          
+            
+            
+              
+                
+                  <script data-page-js-type="config">
+                    (function(n, r, a) {
+                      r = window[n] = window[n] || {};
+                      
+                        
+                            
+                                a = r['global:browserSupportPolicy'] = r['global:browserSupportPolicy'] || {};
+                                a['supportedBrowserMinVersions'] = {      ie:             'v10',      firefox:        'v38',      opera:          'control',      safari:         'v6.1',      chrome:         'v42',      mobileSafari:   'v7',      android:        'v2.3',      androidChrome:  'v0'    };
+                              
+                          
+                      
+                    }('__li__config_registry__'));
+                  </script>
+                
+                
+                
+              
+            
+            
+          
+        
+      
+    
+
+    
+    
+      
+      
+    
+    
+      
+    
+    
+      
+        
+          
+            
+                
+              
+          
+        
+      
+    
+    
+  
+
+
+
+
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+ <script type="text/javascript">
+ (function(d, f) {
+ var modQuot = parseInt(f.substring(1), 10);
+ var now = (+new Date());
+ if (typeof modQuot === 'number' && (now % modQuot !== 0)) {
+ return;
+ }
+ function go() {
+ var a = d.createElement('iframe');
+ a.style.display = 'none';
+ a.setAttribute('sandbox', 'allow-scripts allow-same-origin');
+ a.src = '//platform.linkedin.com/js/thirdPartyJSDelegatorFrame.html?type=dyndns';
+ if (d.body) {
+ d.body.appendChild(a);
+ }
+ }
+
+ if (window.addEventListener) {
+ window.addEventListener('load', go, false);
+ } else if (window.addEvent) {
+ window.addEvent('onload', go);
+ }
+ }(document, 'n100'));
+ </script>
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+     
+      
+    
+    
+      
+      
+        
+      
+    
+    
+
+      
+        
+          
+            
+            
+            
+          
+            
+            
+            
+          
+            
+            
+            
+          
+        
+      
+    
+
+      
+      
+    
+    
+    
+      
+        
+          
+            
+                
+                  
+                    <script type="text/javascript" src="https://static.licdn.com/scds/concat/common/js?h=3kp2aedn5pmamdr4dk4n8atur-3ti5bgrnb6idjtk0w4chaigxe-5hqr1i1uoezoj0z1s5gcxojf2-71o37tcjwl0ishto9izvyml3i-3bbdjshpw5ov0rwa8xe08tp97-cayct4cirf7n0f9z1xsg84g0q-dktkawxk7k8pixuh5g8z5ku32-213zbp2wzp99lviwl8g2cvq6i-1lknwtftishpdmobzm413yc7u-bcxa0v9ke411pjpmz4s239f9b-10wg3j2jlwnawjalr4lur4ho3-82rcsw42m1wbgsti4m3j0kvg6-f3la2n4kbk7vr56j54qax1oif-1eq1il9757v2zkuru6hu14q2e-8sox1gztdjnz2un89fi8fyw35-8hdbl769kuhp0h4bsexhsbks0-d8q8zy9bxe530nqv2fct70nwo-c6ct0moql4p4ngtzltmf8l3ly-8h514j3fiwnzuwkt66sbxsu8f-b3iv68pzbkl7rs4b897f6kj5d-di2z9sra5co9la7ogqyesywin"></script>
+                  
+                  
+                
+              
+          
+        
+      
+    
+    
+
+
+
+
+
+    
+      
+        
+      
+    
+    
+
+
+
+      
+        
+          
+            
+            
+            
+          
+            
+            
+            
+          
+            
+            
+            
+          
+        
+      
+    
+
+            
+        
+        
+      
+      
+        <script src="https://static.licdn.com/sc/h/83ojg6d0upu3m05x2gnok9dff" async=""></script>
+      
+    
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+
+
+      
+      
+    
+    
+    
+      
+        
+      
+    
+    
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ <script type="text/javascript">
+
+ if (!window.LI) { window.LI = {}; }
+ LI.RUM = LI.RUM || {};
+
+ (function(RUM, win) {
+
+ var doc = win.document;
+
+ RUM.flags = RUM.flags || {};
+ RUM.flags['host-flag'] = "control";
+ RUM.flags['pop_beacons_frequency'] = "n10-ap0-la0-va0-tx0-sg0-db0-hk0-sp0-ln0-ch0-sy0-mu0-mi0";
+ RUM.flags['rs_timings_individual'] = "n1000";
+ RUM.flags['rs_timings_individual_detail'] = "enabled";
+
+ RUM.urls = RUM.urls || {};
+ RUM.urls['rum-track'] = "\/lite\/rum-track?csrfToken=ajax%3A5311626217359674443";
+ RUM.urls['boomerang-bw-img'] = "https:\/\/static.licdn.com\/scds\/common\/u\/lib\/boomerang\/0.9.edge.4ab208445a\/img\/";
+
+ RUM.base_urls = RUM.base_urls || {};
+ RUM.base_urls['permanent_content'] = "https:\/\/static.licdn.com\/scds\/common\/u\/";
+ RUM.base_urls['versioned_content'] = "https:\/\/static.licdn.com\/scds\/concat\/common\/";
+ RUM.base_urls['media_proxy'] = "https:\/\/media.licdn.com\/media-proxy\/";
+
+ RUM.serverStartTime = 1.47459896303E12;
+
+ RUM.enabled = true;
+
+ function getRumScript() {
+ var node = doc.body || doc.head || doc.getElementsByTagName('head')[0],
+ script = doc.createElement('script');
+ script.src = 
+ ["https://static.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-34tiets5jpj294jd59h8c4s0n-28w7d5j2k2jtil9ncckolke4m-9jzlwicvu376y9q4vjq77y5ks-1m0whdrwis44c1hoa9mrwhlt4-1uvutm1mpyov7rqhtcf8fksby-aac54ic1fmca5xz1yvc5t9nfe-1hn40w0bomeivihj9lopp4hp2-c0121povror81d0xao0yez4gy"]
+ [0];
+ node.appendChild(script);
+ }
+
+ if (win.addEventListener) {
+ win.addEventListener('load', getRumScript);
+ }
+ else {
+ win.attachEvent('onload', getRumScript);
+ }
+
+ }(LI.RUM, window));
+ </script>
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+ <meta name="detectAdBlock" content="//platform.linkedin.com/js/px.js">
+ <script src="https://static.licdn.com/scds/concat/common/js?h=69w33ou4umkyupw2uqgn7za7w" async="" defer=""></script>
+
+
+
+
+
+
+
+  
+  
+
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+<script class="comscore-tracking">
+ (function(_e, _r) {
+ var isNielsenDisabled = true;
+ var providers = {
+ 'COMSCORE': {
+ 'treatment': 'control'
+ }
+ };
+ if (!isNielsenDisabled) {
+ providers['NIELSEN'] = {
+ 'treatment': 'control'
+ };
+ }
+
+ var fireComscore = function() {
+ var comScore = window.COMSCORE;
+ if (comScore) {
+ comScore.beacon({ c1: 2, c2: 6402952, c3: '', c4: '', c5: '', c6: '', c15: '' });
+ }
+ };
+
+ var uc = window.encodeURIComponent, timeStamp = (new Date()).getTime();
+ var fireExternalTracking = function(et) {
+ if (typeof et.trackPageChromeInit === 'function') {
+ et.trackPageChromeInit(providers);
+ } else {
+ // Default treatment if not read from LIX.
+ et.setTreatment('enabled_1.0');
+ et.trackWithComScoreForChromeInit();
+ if (!isNielsenDisabled) {
+ var img = new Image(1, 1);
+ img.onerror = img.onload = function () {
+ img.onerror = img.onload = null;
+ };
+ img.src = [
+ "//secure-gl.imrworldwide.com/cgi-bin/m?ci=au-linkedin&cc=1&si=",
+ uc(window.location.href),
+ "&rp=", uc(document.referrer), "&ts=compact&rnd=", timeStamp
+ ].join('');
+ }
+ }
+ };
+ var track = function() {
+ var et;
+ if (_e) {
+ fireExternalTracking(_e);
+ } else if (_r && typeof _r.ensure === 'function') {
+ try {
+ _r.ensure(['externalTracking'], function (require) {
+ try {
+ et = require('externalTracking');
+ fireExternalTracking(et);
+ } catch (e) {
+ fireComscore();
+ }
+ });
+ } catch (e) {
+ fireComscore();
+ }
+ } else if (_r && _r._is_li) {
+ try {
+ et = require('externalTracking');
+ fireExternalTracking(et);
+ } catch (e) {
+ fireComscore();
+ }
+ } else {
+ fireComscore();
+ }
+ };
+ window.addEventListener('load', track);
+ }(window.externalTracking, window.require));
 </script>
-</head><body>
-</body></html>
+<noscript>
+ &lt;img src="https://sb.scorecardresearch.com/b?c1=2&amp;amp;c2=6402952&amp;amp;c3=&amp;amp;c4=&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=1.3&amp;amp;cj=1" style="display:none" width="0" height="0" alt="" /&gt;
+</noscript>
+ 
+ 
+ 
+
+
+
+
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+ <script type="text/javascript">
+ (function(d) {
+ function go() {
+ var a = d.createElement('iframe');
+ a.style.display = 'none';
+ a.setAttribute('sandbox', 'allow-scripts allow-same-origin');
+ a.src = '//radar.cedexis.com/1/11326/radar/radar.html';
+ if (d.body) {
+ d.body.appendChild(a);
+ }
+ }
+
+ if (window.addEventListener) {
+ window.addEventListener('load', go, false);
+ } else if (window.addEvent) {
+ window.addEvent('onload', go);
+ }
+ }(document));
+ </script>
+
+
+  
+  
+
+
+
+
+            
+
+
+
+
+  
+</div> 
+
+
+            
+            
+        
+        
+      
+      
+        <iframe id="e_1474598963832" name="e_1474598963832" src="https://platform.linkedin.com/js/thirdPartyJSDelegatorFrame.html?e_origin=https://www.linkedin.com&amp;e_channel=e_1474598963832" style="visibility: hidden; width: 1px; height: 1px; position: absolute; left: -999px; top: 0px; "></iframe><script src="https://static.licdn.com/scds/concat/common/js?h=ed29nkjpsa16bhrjq4na16owq-1mucgfycc664m7vmhpjgqse65-1l5rurej3h44qodo5rn0cdvyn-8om6v2ckrxsbnwf40t9ta8a7e-34tiets5jpj294jd59h8c4s0n-28w7d5j2k2jtil9ncckolke4m-9jzlwicvu376y9q4vjq77y5ks-1m0whdrwis44c1hoa9mrwhlt4-1uvutm1mpyov7rqhtcf8fksby-aac54ic1fmca5xz1yvc5t9nfe-1hn40w0bomeivihj9lopp4hp2-c0121povror81d0xao0yez4gy"></script><iframe style="display: none; " sandbox="allow-scripts allow-same-origin" src="//radar.cedexis.com/1/11326/radar/radar.html"></iframe><script src="//platform.linkedin.com/js/px.js?ch=1"></script></body></html>
