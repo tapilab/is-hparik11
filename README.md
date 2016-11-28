@@ -23,6 +23,7 @@ Classifying age and gender from facial features using Convolution Neural Network
 
 1. [Age and Gender Estimation of Unfiltered Faces](https://pdfs.semanticscholar.org/1be4/98d4bbc30c3bfd0029114c784bc2114d67c0.pdf)
 2. [Age and Gender Classification using Convolutional Neural Networks](http://www.openu.ac.il/home/hassner/projects/cnn_agegender/CNN_AgeGenderEstimation.pdf)
+3. [Convolutional Neural Networks for Age and Gender Classification](http://cs231n.stanford.edu/reports2016/003_Report.pdf)
 
 ## Data
 
@@ -68,12 +69,12 @@ for i.e
 
 ## Results
 
-#### Accuracy of classifying Gender
+#### Accuracy of classifying Gender (Accuracy vs No. of Samples) 
 
 ![Acc_Gender](accuracy_res_gender.png)
 
 
-#### Accuracy of classifying Age
+#### Accuracy of classifying Age (Accuracy vs No. of Samples) 
 
 ![Acc_Age](accuracy_res_age.png)
 
