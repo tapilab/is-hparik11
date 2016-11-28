@@ -13,9 +13,7 @@ Classifying age and gender from facial features using Convolution Neural Network
 
 ## Research questions
 
-Here are the core questions / subproblems you will address:
-
-1. ...
+1. 
 2. ...
 3. ...
 
@@ -26,9 +24,33 @@ Here are the core questions / subproblems you will address:
 
 ## Data
 
-Here is a description of the data you collected.
+I am collecting LinkedIn profiles one by one based on profile id. i.e [williamhgates](https://www.linkedin.com/in/williamhgates). 
 
-Here is an example data record.
+The collection spans over the period June 2016 - November 2016. 
+
+Here is the sample metadata: [williamhgates](https://github.com/tapilab/is-hparik11/blob/master/src/Profile_Source/williamhgates.txt). 
+
+After getting data in XML format, I am converting into readable JSON format and keeping only useful information out of it. 
+for i.e 
+{'Full_Name': 'Eryn Olson',
+ 'Gender': 'Female',
+ 'Profile_Url': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbyAAAAJDMzZjQ4NjViLTIwZTctNDM0Yi05ODI5LTk0NmYzZWZmZDI5Yg.jpg',
+ 'Recommended_Ids': ['erynolson',
+  'eryn-olson-62639510a',
+  'eryn-olson-432679b1',
+  'eryn-olson-1351aa74',
+  'courtney-tillman-8b62a664',
+  'chance-cozby-13235224',
+  'bill-gates-b1a606b0',
+  'sarah-eves-2937a719',
+  'andrew-solheim-810a3517',
+  'andrea-cundiff-76020535',
+  'mollie-harper-6b850947',
+  'tyler-shaw-934b7',
+  'donna-conroy-66987340',
+  'paul-wood-73455920'],
+ 'User_ID': 'eryn-olson-50328143',
+ 'age': 20}
 
 ## Methods
 
