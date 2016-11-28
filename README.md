@@ -13,9 +13,9 @@ Classifying age and gender from facial features using Convolution Neural Network
 
 ## Research questions
 
-1. 
-2. ...
-3. ...
+1. How to extract the useful features from an image.  
+2. How to enhance the classifier accuracy to predict the correct results. 
+3. What features would help in identifying the gender and age of a person. 
 
 ## Related work
 
@@ -26,15 +26,17 @@ Classifying age and gender from facial features using Convolution Neural Network
 
 I am collecting LinkedIn profiles one by one based on profile id. i.e [williamhgates](https://www.linkedin.com/in/williamhgates). 
 
-The collection spans over the period June 2016 - November 2016. 
+The collection spans over the period June 2016 - November 2016. I have collected around 8000 profiles and out of which around 3000 profiles have all information which are useful for my project. 
 
 Here is the sample metadata: [williamhgates](https://github.com/tapilab/is-hparik11/blob/master/src/Profile_Source/williamhgates.txt). 
 
 After getting data in XML format, I am converting into readable JSON format and keeping only useful information out of it. 
 for i.e 
-{'Full_Name': 'Eryn Olson',
- 'Gender': 'Female',
- 'Profile_Url': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbyAAAAJDMzZjQ4NjViLTIwZTctNDM0Yi05ODI5LTk0NmYzZWZmZDI5Yg.jpg',
+
+{
+'Full_Name': 'Eryn Olson',
+'Gender': 'Female',
+'Profile_Url': 'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbyAAAAJDMzZjQ4NjViLTIwZTctNDM0Yi05ODI5LTk0NmYzZWZmZDI5Yg.jpg',
  'Recommended_Ids': ['erynolson',
   'eryn-olson-62639510a',
   'eryn-olson-432679b1',
@@ -50,11 +52,17 @@ for i.e
   'donna-conroy-66987340',
   'paul-wood-73455920'],
  'User_ID': 'eryn-olson-50328143',
- 'age': 20}
+ 'age': 20
+ }
 
 ## Methods
 
-Here is an outline of your approach.
+1. Collected LinkedIn profiles data and parse useful information from it. This will be an ongoing process to extract as much as possble data.
+2. Extract the faceial features from an image and store it category wise. 
+3. Labelized processed data. i.e for Gender recognition, Male & Female and for Age recogintion, Youth & Senior. 
+4. Trained the classifier with basic classification method to check the validity of data. 
+5. Again trained the classifier with deep learning models i.e CNN and observed the accuracy of classifier. 
+
 
 ## Results
 
@@ -62,5 +70,5 @@ Here is a summary of the main results.
 
 ## Conclusions / Future Work
 
-Here's the main conclusions and a list of directions for improvement.
-
+1. Keep collecting more data to get better accuracy. 
+2. Try to diminish testing error and remove noise from data. 
